@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 5%;
 }
 
 .App-logo {
@@ -36,3 +37,36 @@
     transform: rotate(360deg);
   }
 }
+
+.heading{
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.inpt{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    padding-left:10px;
+}
+
+.btn{
+  margin-left: 40px;
+  height: 40px;
+  width: 75px;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+}
+
+.inpt-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

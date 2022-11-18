@@ -1,0 +1,78 @@
+.editIcon{
+    display: inline;
+}
+
+.deleteIcon{
+    display: inline;
+}
+
+.editIcon img{
+    height:35px;
+}
+
+.deleteIcon img{
+    height:32px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.icons{
+    display: flex;
+    gap: 18px;
+    width: 15%;
+}
+
+.todoList{
+    list-style: none;
+    width:50%;
+}
+
+.content{
+    flex: 3;
+    /* justify-content: flex-start; */
+    /* align-items: start; */
+    text-align: left;
+}
+
+.list-1{
+    margin: 10px 0px;
+    background-color: #5635DE;
+    padding: 6px;
+    padding-left: 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.update-inpt{
+    width: 70%;
+    text-align: left;
+}
+
+.update-btn{
+    width: 15%;
+}
+
+.edit-btn{
+    padding: 9px 5px;
+    width: 69px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: dodgerblue;
+    font-weight: bold;
+}
+
+.edit-inpt{
+    background: white;
+    border: 2px solid white;
+    /* height: 27px; */
+    color: black;
+    padding: 9px 5px;
+    border-radius: 5px;
+    width: 246px;
+}
